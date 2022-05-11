@@ -5,63 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home |Nana A.J</title>
+    <!-- bootstrap css  -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <!-- main css  -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- font awesome  -->
     <script src="/js/all.js"></script>
   </head>
   <body>
     <section class="home_section">
       <div class="container-fluid home">
         <!-- nav bar  -->
-        <div class="navbar">
-          <div class="AJ">
-            <a href="/index.html"
-              ><h3 class="text-center text-light">Nana A.J</h3></a
-            >
-          </div>
-          <div class="nav_links mr-auto">
-            <ul class="mb-0 ml-5">
-              <li class="single_link px-1"><a href="/index.html">Home</a></li>
-              <li class="single_link px-1"><a href="#">News</a></li>
-              <li class="single_link px-1"><a href="#">Music</a></li>
-              <li class="single_link px-1"><a href="#">Videos</a></li>
-              <li class="single_link px-1"><a href="#">Bio</a></li>
-              <li class="single_link px-1"><a href="#">Tour</a></li>
-              <li class="single_link px-1">
-                <a href="/contact.html">Contact</a>
+
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand AJ" href="/index.html"
+            ><h3 class="text-center text-light">Nana A.J</h3></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars hamburgerBars"></i>
+          </button>
+          <div class="collapse navbar-collapse nav_links" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item single_link">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item single_link">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item single_link">
+                <a class="nav-link" href="#">Music</a>
+              </li>
+              <li class="nav-item single_link">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item single_link">
+                <a class="nav-link" href="#">Bio</a>
+              </li>
+              <li class="nav-item single_link">
+                <a class="nav-link" href="#">Tour</a>
+              </li>
+              <li class="nav-item single_link">
+                <a class="nav-link" href="/contact.html">Contact</a>
               </li>
             </ul>
+            <div class="nav_socials ml-auto">
+              <a
+                target="blank"
+                href="https://soundcloud.com/nana-a-j/sets/train-of-thought"
+                ><i class="fa-brands fa-soundcloud px-1"></i
+              ></a>
+              <a target="blank" href="https://www.facebook.com/atotheflippingj/"
+                ><i class="fab fa-facebook-f px-1"></i
+              ></a>
+              <a target="blank" href="https://www.instagram.com/nana_a.j/"
+                ><i class="fab fa-instagram px-1"></i
+              ></a>
+              <a
+                target="blank"
+                href="https://twitter.com/atotheflippingj?s=20&t=jgDe3BM8MflcevUmnfSs5w"
+                ><i class="fab fa-twitter px-1"></i
+              ></a>
+              <a
+                target="blank"
+                href="https://open.spotify.com/artist/1NKZ7szc37Mlo5wTwm2tHA?si=mohAOJDFQXqSiMkhDFVI7g"
+                ><i class="fa-brands fa-spotify px-1"></i
+              ></a>
+              <a
+                target="blank"
+                href="https://www.youtube.com/playlist?list=OLAK5uy_kKdgIi68Smtyjd8GrEc-jrad3q2kf5Q6s"
+                ><i class="fab fa-youtube px-1"></i
+              ></a>
+            </div>
           </div>
-
-          <div class="nav_socials">
-            <a
-              target="blank"
-              href="https://soundcloud.com/nana-a-j/sets/train-of-thought"
-              ><i class="fa-brands fa-soundcloud px-1"></i
-            ></a>
-            <a target="blank" href="https://www.facebook.com/atotheflippingj/"
-              ><i class="fab fa-facebook-f px-1"></i
-            ></a>
-            <a target="blank" href="https://www.instagram.com/nana_a.j/"
-              ><i class="fab fa-instagram px-1"></i
-            ></a>
-            <a
-              target="blank"
-              href="https://twitter.com/atotheflippingj?s=20&t=jgDe3BM8MflcevUmnfSs5w"
-              ><i class="fab fa-twitter px-1"></i
-            ></a>
-            <a
-              target="blank"
-              href="https://open.spotify.com/artist/1NKZ7szc37Mlo5wTwm2tHA?si=mohAOJDFQXqSiMkhDFVI7g"
-              ><i class="fa-brands fa-spotify px-1"></i
-            ></a>
-            <a
-              target="blank"
-              href="https://www.youtube.com/playlist?list=OLAK5uy_kKdgIi68Smtyjd8GrEc-jrad3q2kf5Q6s"
-              ><i class="fab fa-youtube px-1"></i
-            ></a>
-          </div>
-        </div>
+        </nav>
         <!-- end of nav bar  -->
         <div class="row main_sec">
           <div class="col-md-12">

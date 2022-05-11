@@ -13,13 +13,14 @@
   background-image: url(/images/Cover_option_01TRAIN.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .contact_section {
   background-color: #82320a;
 }
 .contact {
   min-height: 100vh;
+  background-attachment: fixed;
   background-image: url(/images/NANA\ AJ\ train\ of\ thoughts\ cover\ shoot2625\ Kopie.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -28,20 +29,21 @@
 .AJ a {
   text-decoration: none;
 }
+
 .navbar {
   padding: 1rem;
 }
 
+.hamburgerBars {
+  color: white;
+  font-size: 1.5rem;
+}
 .nav_links ul {
   display: flex;
-  flex-direction: row;
 }
 
 .single_link {
   list-style-type: none;
-}
-.single_link:hover {
-  padding-left: 1rem;
 }
 .single_link a {
   text-decoration: none;
