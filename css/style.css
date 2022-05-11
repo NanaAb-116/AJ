@@ -8,7 +8,7 @@
   background-color: #040e22;
 }
 .home {
-  min-height: 100vh;
+  /* max-height: 100vh; */
   background-attachment: fixed;
   background-image: url(/images/Cover_option_01TRAIN.jpg);
   background-position: center;
@@ -19,7 +19,7 @@
   background-color: #82320a;
 }
 .contact {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-attachment: fixed;
   background-image: url(/images/NANA\ AJ\ train\ of\ thoughts\ cover\ shoot2625\ Kopie.jpg);
   background-position: center;
