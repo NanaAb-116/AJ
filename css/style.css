@@ -8,18 +8,19 @@
   background-color: #040e22;
 }
 .home {
-  /* max-height: 100vh; */
+  min-height: 100vh;
   background-attachment: fixed;
-  background-image: url(/images/Cover_option_01TRAIN.jpg);
+  background-image: url('/images/Cover_option_01TRAIN.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 100%;
 }
 .contact_section {
   background-color: #82320a;
 }
 .contact {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background-attachment: fixed;
   background-image: url(/images/NANA\ AJ\ train\ of\ thoughts\ cover\ shoot2625\ Kopie.jpg);
   background-position: center;
@@ -63,11 +64,7 @@
   overflow: visible;
   width: 15rem;
 }
-@media all and (max-width: 768px) {
-  .main_sec {
-    margin-top: 15vh;
-  }
-}
+
 .newsletter-section {
   background-color: #010600;
 }
@@ -156,6 +153,11 @@
   color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
 }
+@media all and (max-width: 768px) {
+  .main_sec {
+    margin-top: 15vh;
+  }
+}
 
 @media all and (max-width: 530px) {
   #lname,
@@ -164,5 +166,23 @@
   #message {
     width: 22rem;
     height: 2.5rem;
+  }
+  .main_sec {
+    margin-top: 50vh;
+  }
+  .home {
+    background-attachment: scroll;
+  }
+  .contact {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .newsletter {
+    background-attachment: scroll;
+  }
+  .footer {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
   }
 }
