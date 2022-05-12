@@ -126,7 +126,6 @@
 .input_email {
   border: none;
   background-color: white;
-  color: white;
   width: 20rem;
   padding: 1.5rem;
 }
@@ -171,13 +170,16 @@
 #fname {
   width: 15rem;
   height: 2.5rem;
+  padding: 1rem;
 }
 #mail {
   width: 30rem;
   height: 2.5rem;
+  padding: 1rem;
 }
 #message {
   width: 30rem;
+  padding: 1rem;
 }
 .lname_input {
   padding-left: 10.5rem;
