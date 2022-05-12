@@ -222,3 +222,23 @@
     background-attachment: scroll;
   }
 }
+@media all and (max-width: 830px) {
+  .home {
+    background-attachment: scroll;
+  }
+  .contact {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .bio {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .tour {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .newsletter {
+    background-attachment: scroll;
+  }
+}
