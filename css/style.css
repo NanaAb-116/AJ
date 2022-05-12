@@ -49,6 +49,9 @@
 .contact_section {
   background-color: #82320a;
 }
+.news_section {
+  background-color: #0f0f0f;
+}
 .bio_section {
   background-color: #040e22;
 }
@@ -70,6 +73,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.news {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/WhatsApp\ Image\ 2022-05-12\ at\ 4.29.17\ PM.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 50%;
 }
 .tour {
   min-height: 100vh;
@@ -185,6 +197,19 @@
   color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
 }
+.read-more {
+  text-decoration: underline;
+  color: black;
+}
+.read-more:hover {
+  color: black;
+}
+.big {
+  display: block;
+}
+.small {
+  display: none;
+}
 @media all and (max-width: 768px) {
   .main_sec {
     margin-top: 15vh;
@@ -214,6 +239,10 @@
     background-attachment: scroll;
     background-size: cover;
   }
+  .news {
+    background-attachment: scroll;
+    background-size: cover;
+  }
   .tour {
     background-attachment: scroll;
     background-size: cover;
@@ -222,7 +251,7 @@
     background-attachment: scroll;
   }
 }
-@media all and (max-width: 830px) {
+@media all and (max-width: 1000px) {
   .home {
     background-attachment: scroll;
   }
@@ -234,11 +263,23 @@
     background-attachment: scroll;
     background-size: cover;
   }
+  .news {
+    background-attachment: scroll;
+    background-size: cover;
+  }
   .tour {
     background-attachment: scroll;
     background-size: cover;
   }
   .newsletter {
     background-attachment: scroll;
+  }
+}
+@media all and (max-width: 767px) {
+  .big {
+    display: none;
+  }
+  .small {
+    display: block;
   }
 }
