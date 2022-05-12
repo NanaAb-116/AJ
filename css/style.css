@@ -3,30 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.home_section {
-  background-color: #040e22;
-}
-.home {
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-image: url('/images/Cover_option_01TRAIN.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100%;
-}
-.contact_section {
-  background-color: #82320a;
-}
-.contact {
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-image: url(/images/NANA\ AJ\ train\ of\ thoughts\ cover\ shoot2625\ Kopie.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+/* navbar section */
 .AJ a {
   text-decoration: none;
 }
@@ -54,11 +31,66 @@
   color: rgb(255, 255, 255);
   font-size: large;
 }
+/* end of navbar section  */
+
+/* home section  */
+.home_section {
+  background-color: #0a2c2d;
+}
+.home {
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url('/images/photo_2022-05-11_19-26-46.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 100%;
+}
+.contact_section {
+  background-color: #82320a;
+}
+.bio_section {
+  background-color: #040e22;
+}
+.tour_section {
+  background-color: #022441;
+}
+.contact {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/NANA\ AJ\ train\ of\ thoughts\ cover\ shoot2625\ Kopie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bio {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/Cover_option_01TRAIN.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tour {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/gif2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
 .main_sec {
   margin-top: 70vh;
 }
 .contact_sec {
-  margin-top: 80vh;
+  margin-top: 70vh;
+}
+.bio_sec {
+  margin-top: 70vh;
+}
+.tour_sec {
+  margin-top: 70vh;
 }
 .my_btn {
   overflow: visible;
@@ -70,7 +102,7 @@
 }
 .newsletter {
   min-height: 100vh;
-  background: url(/images/Cover_option03.jpg);
+  background: url(/images/photo_2022-05-11_19-27-19.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -87,7 +119,7 @@
   padding: 1.5rem;
 }
 .footer {
-  min-height: 30vh;
+  min-height: 10vh;
   display: flex;
   align-items: center;
 }
@@ -168,21 +200,25 @@
     height: 2.5rem;
   }
   .main_sec {
-    margin-top: 50vh;
+    margin-top: 10vh;
   }
   .home {
+    height: 75vh;
     background-attachment: scroll;
   }
   .contact {
     background-attachment: scroll;
     background-size: cover;
   }
+  .bio {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .tour {
+    background-attachment: scroll;
+    background-size: cover;
+  }
   .newsletter {
     background-attachment: scroll;
-  }
-  .footer {
-    min-height: 5vh;
-    display: flex;
-    align-items: center;
   }
 }
