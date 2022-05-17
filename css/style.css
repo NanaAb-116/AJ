@@ -7,8 +7,17 @@
 .AJ a {
   text-decoration: none;
 }
+.my-nav {
+  background-color: none;
+  transition: 0.8s all ease;
+}
+.my-nav.scrolled {
+  background-color: #0f0f0f;
+  transition: 0.8s all ease;
+}
 
 .navbar {
+  /* position: fixed; */
   padding: 1rem;
 }
 
@@ -93,16 +102,16 @@
 }
 
 .main_sec {
-  margin-top: 70vh;
+  margin-top: 80vh;
 }
 .contact_sec {
-  margin-top: 70vh;
+  margin-top: 80vh;
 }
 .bio_sec {
-  margin-top: 70vh;
+  margin-top: 80vh;
 }
 .tour_sec {
-  margin-top: 70vh;
+  margin-top: 80vh;
 }
 .my_btn {
   overflow: visible;
