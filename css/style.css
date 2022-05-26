@@ -14,7 +14,7 @@
 .my-nav.scrolled {
   background-color: #0f0f0f;
   transition: 0.8s all ease;
-  box-shadow: 0 5px 5px 0 #0f0f0f;
+  box-shadow: 0 4px 4px 0 #303030;
 }
 
 .navbar {
